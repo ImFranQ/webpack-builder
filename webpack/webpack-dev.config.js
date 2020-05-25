@@ -22,9 +22,9 @@ const config = {
         test: /\.s[ac]ss$/i,
         use: [
           'style-loader',
-          'sass-loader',
           MiniCssExtractPlugin.loader,
-          'css-loader'
+          'css-loader',
+          'sass-loader'
         ]
       },
       {
