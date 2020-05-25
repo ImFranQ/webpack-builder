@@ -1,6 +1,5 @@
 const common = require('./webpack-dev.config')
 const merge = require('webpack-merge');
-const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 const vueConfig = merge(common, {
   module:{
