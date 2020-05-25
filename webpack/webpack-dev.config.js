@@ -34,7 +34,13 @@ const config = {
     new MiniCssExtractPlugin({
       filename: 'css/app.css',
     }),
-  ]
+  ],
+  devServer: {
+    contentBase: path.join(__dirname, '../dist'),
+    compress: true,
+    port: 8000,
+    hot: true
+  }
 }
 
 module.exports = config
