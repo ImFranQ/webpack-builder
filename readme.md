@@ -16,4 +16,8 @@ $ npm i // or yarn
 
 Run
 
-`$ npm run dev` or `$ npm run dev --watch` for reload bundles
+`$ npm run dev` or `$ npm run watch` for live reload bundles
+
+### Run server
+
+`$ npm run serve`
