@@ -44,7 +44,9 @@ const config = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: './src/app/index.html'
+    }),
     new MiniCssExtractPlugin({
       filename: 'css/app.css',
     }),
