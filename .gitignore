@@ -1,0 +1,9 @@
+# firectories
+.vscode/
+node_modules/
+dist/*
+
+#files
+*.log
+*-lock.*
+*.lock
